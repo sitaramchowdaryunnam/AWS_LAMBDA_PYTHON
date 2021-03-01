@@ -5,7 +5,7 @@ from botocore.exceptions import ClientError
 
 
 def lambda_handler(file_name, bucket, object_name=None):
-    file_name = 'zabbix'
+    file_name = 'textfile'
     bucket    = 'ntttd'
     """Upload a file to an S3 bucket
 
